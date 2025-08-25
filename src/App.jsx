@@ -11,14 +11,15 @@ import KontaktPage from './pages/KontaktPage'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-  <Route path='/paterka' element={<MainLayOut/>}>
-    <Route index element={<HomePage/>}/>
-    <Route path='/oferta' element={<OfertaPage/>}/>
-    <Route path='/kontakt' element={<KontaktPage/>}/>
-    <Route path='*' element={<NotFoundPage/>}/>
-  </Route>
+    <Route path='/paterka' element={<MainLayOut />}>
+      <Route index element={<HomePage />} />
+      <Route path='oferta' element={<OfertaPage />} />
+      <Route path='kontakt' element={<KontaktPage />} />
+      <Route path='*' element={<NotFoundPage />} />
+    </Route>
   )
 );
+
 
 function App() {
   return <RouterProvider router={router}/>;
