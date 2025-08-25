@@ -5,10 +5,10 @@ import logo from "../assets/img/logo.png";
 import { Link } from "react-router-dom";
 
 const links = [
-  { name: "Strona Główna", path: "/" },
-  { name: "O nas", path: "/o_nas" },
-  { name: "Oferta", path: "/oferta" },
-  { name: "Kontakt", path: "/kontakt" },
+  { name: "Strona Główna", path: "/paterka/" },
+  { name: "O nas", path: "/paterka/o_nas" },
+  { name: "Oferta", path: "/paterka/oferta" },
+  { name: "Kontakt", path: "/paterka/kontakt" },
 ];
 
 const NavBar = () => {
