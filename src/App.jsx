@@ -12,8 +12,8 @@ const App = () => {
       <Routes>
         <Route path='/' element={<MainLayOut />}>
           <Route index element={<HomePage />} />
-          <Route path='/paterka/oferta' element={<Oferta />} />
-          <Route path='/paterka/kontakt' element={<KontaktPage />} />
+          <Route path='/oferta' element={<Oferta />} />
+          <Route path='/kontakt' element={<KontaktPage />} />
           <Route path='*' element={<PageNotFound />} />
         </Route>
       </Routes>

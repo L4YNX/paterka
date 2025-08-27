@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 const links = [
   { name: "Strona Główna", path: "/" },
-  { name: "O nas", path: "paterka/o_nas" },
-  { name: "Oferta", path: "paterka/oferta" },
-  { name: "Kontakt", path: "paterka/kontakt" },
+  { name: "O nas", path: "/o_nas" },
+  { name: "Oferta", path: "/oferta" },
+  { name: "Kontakt", path: "/kontakt" },
 ];
 
 const NavBar = () => {
