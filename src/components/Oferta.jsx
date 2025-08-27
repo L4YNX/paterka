@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import ScrollToTop from "./ScrollToTop";
 
 const ofertaData = {
   patery: [
@@ -264,6 +265,7 @@ const Oferta = () => {
           </NavLink>
         </div>
       </div>
+      <ScrollToTop/>
     </section>
   );
 };
