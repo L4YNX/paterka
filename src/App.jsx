@@ -6,17 +6,19 @@ import Oferta from './pages/OfertaPage';
 import KontaktPage from './pages/KontaktPage';
 import PageNotFound from './components/PageNotFound';
 
-const App = () => (
-  <HashRouter>
-    <Routes>
-      <Route path="/paterka" element={<MainLayOut />}>
-        <Route index element={<HomePage />} />
-        <Route path="oferta" element={<Oferta />} />
-        <Route path="kontakt" element={<KontaktPage />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Route>
-    </Routes>
-  </HashRouter>
-);
+const App = () => {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path='/paterka' element={<MainLayOut />}>
+          <Route index element={<HomePage />} />
+          <Route path='oferta' element={<Oferta />} />
+          <Route path='kontakt' element={<KontaktPage />} />
+          <Route path='*' element={<PageNotFouund />} />
+        </Route>
+      </Routes>
+    </HashRouter>
+  );
+};
 
 export default App;
