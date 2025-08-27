@@ -14,7 +14,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path={isGitHubPages ? '/paterka' : '/'} element={<MainLayOut />}>
+        <Route path="paterka" element={<MainLayOut />}>
           <Route index element={<HomePage />} />
           <Route path="oferta" element={<Oferta />} />
           <Route path="kontakt" element={<KontaktPage />} />
