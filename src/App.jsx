@@ -9,7 +9,7 @@ import OfertaPage from './pages/OfertaPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-  <Route path='/' element={<MainLayOut/>}>
+  <Route path='/paterka' element={<MainLayOut/>}>
     <Route index element={<Home/>}/>
     <Route path='/oferta' Component={<OfertaPage/>}/>
     <Route path='/kontakt' Component={<KontaktPage/>}/>
