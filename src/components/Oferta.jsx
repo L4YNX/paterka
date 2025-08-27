@@ -66,19 +66,19 @@ const Oferta = () => {
         <nav className="z-50 bg-orange-50 py-3">
           <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-6 text-3xl sm:text-2xl font-semibold">
             <a
-              href="#patery"
+              href="/paterka/oferta#patery"
               className="px-2 border-l border-r first:border-none border-gray-400 hover:text-rose-800 transition-colors"
             >
               Patery
             </a>
             <a
-              href="#dania-miesne"
+              href="/paterka/oferta#dania-miesne"
               className="px-2 border-l border-r border-gray-400 hover:text-rose-800 transition-colors"
             >
               Dania mięsne
             </a>
             <a
-              href="#koryta"
+              href="/paterka/oferta#koryta"
               className="px-2 border-l border-r border-gray-400 hover:text-rose-800 transition-colors"
             >
               Koryta
