@@ -27,7 +27,7 @@ const Home = () => {
         {/* 🔹 Przycisk wyśrodkowany na dole */}
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2">
           <NavLink
-            to="oferta"
+            to="/paterka/oferta"
             className="bg-rose-950 text-white text-xl sm:text-2xl font-semibold py-4 px-6 hover:bg-rose-800 transition-colors flex items-center gap-2 rounded-md"
           >
             Zobacz naszą ofertę <FaArrowRight />
