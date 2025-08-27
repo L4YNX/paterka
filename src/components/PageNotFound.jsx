@@ -7,7 +7,7 @@ const PageNotFound = () => {
       <h1 className="text-6xl font-bold mb-4 text-rose-950">404</h1>
       <p className="text-2xl mb-6">Ups... Ta strona nie istnieje.</p>
       <NavLink
-        to="/paterka"
+        to="/"
         className="inline-block bg-rose-950 text-white text-xl font-semibold py-3 px-6 rounded-lg hover:bg-rose-800 transition-colors"
       >
         Wróć do strony głównej

@@ -102,7 +102,7 @@ const Oferta = () => {
         {/* Nawigacja */}
         <div className="flex flex-col md:flex-row justify-center gap-4 mt-8 mb-5">
           <NavLink
-            to="/paterka"
+            to="/"
             className="inline-block bg-rose-950 text-white font-semibold py-4 px-6 rounded-lg hover:bg-rose-800 transition-colors text-base md:text-xl text-center"
           >
             Wróć na stronę główną
