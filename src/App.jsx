@@ -14,7 +14,7 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path='oferta' element={<Oferta />} />
           <Route path='kontakt' element={<KontaktPage />} />
-          <Route path='*' element={<PageNotFouund />} />
+          <Route path='*' element={<PageNotFound />} />
         </Route>
       </Routes>
     </HashRouter>
