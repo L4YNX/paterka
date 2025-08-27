@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://l4ynx.github.io/paterka/",
+  "homepage": "https://l4ynx.github.io/paterka",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
