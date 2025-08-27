@@ -13,8 +13,8 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full px-5 md:items-start md:pl-12 items-center w-full max-w-none">
           {/* Czarny box mniejszy, węższy, tekst responsywny */}
-          <div className="bg-black bg-opacity-80 w-full sm:w-4/5 md:w-2/3 lg:w-3/5 xl:w-2/5 p-12 sm:p-16 md:p-20 shadow-lg rounded-md min-h-[200px] flex flex-col justify-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-5xl font-bold mb-6 text-white">
+          <div className="bg-black bg-opacity-80 w-full sm:w-150 md:w-150 lg:w-150 xl:w-150 p-12 sm:p-16 md:p-20 shadow-lg rounded-md min-h-[200px] flex flex-col justify-center">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-3xl font-bold mb-6 text-white">
               Paterka – Catering z pasją do pysznych potraw!
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-xl text-white">
