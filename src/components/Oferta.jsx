@@ -109,7 +109,7 @@ const Oferta = () => {
           </NavLink>
 
           <NavLink
-            to="/paterka/kontakt/"
+            to="/paterka/kontakt"
             className="inline-block bg-rose-950 text-white font-semibold py-4 px-6 rounded-lg hover:bg-rose-800 transition-colors text-base md:text-xl text-center"
           >
             Złóż zamówienie

@@ -9,10 +9,10 @@ import PageNotFound from './components/PageNotFound';
 const App = () => (
   <HashRouter>
     <Routes>
-      <Route path="/paterka" element={<MainLayOut />}>
+      <Route path="/paterka/" element={<MainLayOut />}>
         <Route index element={<HomePage />} />
-        <Route path="oferta" element={<Oferta />} />
-        <Route path="kontakt" element={<KontaktPage />} />
+        <Route path="/oferta" element={<Oferta />} />
+        <Route path="/kontakt" element={<KontaktPage />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>
